@@ -15,7 +15,6 @@ int main()
     for( i=0;i<n2;i++)
     scanf("%d",&b[i]);
    
-    
     // logic for find A-B
     
     for( i=0;i<n1;i++)
