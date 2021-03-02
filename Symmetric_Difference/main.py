@@ -3,10 +3,8 @@
 def sym(args1, args2):
     return args1.symmetric_difference(args2)
 
-i = ''
-j = ''
-args1 = {''}
-args2 = {''}
+i , j = '', ''
+args1, args2 = {''}, {''}
 
 while i != 'q':
     i = input("Add element to set 1 (type 'q' to quit): ")
