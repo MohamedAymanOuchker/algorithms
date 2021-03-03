@@ -1,10 +1,10 @@
 def updateInventory(arr1, arr2):
-        l = []
+        list = []
         arr1_dict = {x[1]: x[0] for x in arr1}
         arr2_dict = {x[1]: x[0] for x in arr2}
         arr1_dict.update(arr2_dict)
-        [l.extend([k,v]) for k,v in arr1_dict.items()]
-        return l
+        [list.extend([k,v]) for k,v in arr1_dict.items()]
+        return list
 
 curInv =[
 	     [21, "Bowling Ball"], 
